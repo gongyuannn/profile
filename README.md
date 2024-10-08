@@ -1,1 +1,1 @@
-This is a landing page created for the Odin Project to put together basic HTML and CSS.
+This is a my profile page, which is an enhancement of my landing-page project. This page showcases the projects that I have created, including those made as part of my journey on the Odin Project. 
