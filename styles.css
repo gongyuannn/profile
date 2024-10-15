@@ -48,34 +48,53 @@ ul li a:hover {
 
 .hero {
     width: 100%; 
-    padding: 60px 20px;
+    padding: 30px 30px;
     
-    background-image: url('./images/watercolour.jpg');
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.2)), url('./images/watercolour.jpg');
     background-size: cover;
-    background-position: center; 
+    background-position: center;
 
     display: flex;
     flex-direction: column;
     justify-content: center; 
     color: #333;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 10px 20px rgba(254, 233, 223, 0.1); 
 }
 
 .hero .title {
     font-size: 3em;
-    margin-bottom: 10px;
+    font-weight: bold;
+    margin: 20px 0 5px 0;
+    line-height: 1.2;
 }
 
 .hero .subtitle {
     font-size: 1.5em;
-    margin-bottom: 20px;
+    font-style: italic;
+    margin-bottom: 15px;
     color: #555;
+    line-height: 1.2;
+}
+
+.hero .subtext {
+    margin-top: 20px;
 }
 
 .hero .subtext p {
-    margin-bottom: 15px; 
+    margin: 0 0 15px 0; 
     font-size: 1.1em;
-    line-height: 1.6;
+}
+
+.hero .subtext p:last-child {
+    font-style: italic;
+    font-size: 0.9em;
+    color: #555; 
+    margin-top: 30px;
+}
+
+.hero .subtext p:last-child a {
+    color: #555;
+    text-decoration: underline;
 }
 
 .midsection {
