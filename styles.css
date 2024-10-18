@@ -96,7 +96,7 @@ ul li a:hover {
     text-decoration: underline;
 }
 
-.midsection {
+.midsection, .lastsection {
     box-shadow: 0 10px 20px rgba(254, 233, 223, 0.1); 
     padding: 30px 30px;
 }
@@ -133,7 +133,7 @@ ul li a:hover {
 .mid-img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -157,61 +157,6 @@ ul li a:hover {
 
 .img-container:hover .img-description {
     opacity: 1;
-}
-
-.title {
-    margin-top: 5px;
-    color: #333;
-}
-
-.quote {
-    background-color: #E5E7EB;
-    padding: 70px 100px;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.quotetext {
-    font-size: 36px;
-    font-weight: 300;
-    font-style: italic;
-}
-
-.quoteauthor {
-    align-self: flex-end;
-    font-weight: 700;
-}
-
-.cta {
-    padding: 50px 100px;
-}
-
-.ctacontainer {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #3882F6;
-    border-radius: 15px;
-    padding: 30px 100px;
-}
-
-.ctatext1 {
-    font-size: 25px;
-    font-weight: 700;
-    color:  #F9FAF8;
-}
-
-.ctatext2 {
-    color: #F9FAF8;
-    line-height: 1.5;
-}
-
-.right-cta button {
-    border-color: #F9FAF8;
-    margin: 0;
 }
 
 footer {
